@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Github Copilot Demo Repository
+This repository is used to demonstrate the capabilities of Github Copilot.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to use this repository
+This is a react application. To run it, you need to have node.js installed. Then, you can run the following commands:
+```bash
+npm install
+npm start
+```
 
-## Available Scripts
+## Tasks
+Here are some tasks that you can try to complete using Github Copilot:
+- [ ] Add a button to `App.tsx` by **adding a comment** inline.
+- [ ] Add a button that changes the color of the text by using `CTRL+I` to **suggest code**.
+- [ ] Add a button that changes the color of the background by using `CTRL+I` to **suggest code**.
+- [ ] Add a page that displays a list of items, by using `CTRL+I` to **suggest code**.
+- [ ] Add a page that allows you to add items to the list, by using `CTRL+I` to **suggest code**.
 
-In the project directory, you can run:
+## Tips
+- Try using `CTRL+I` to **suggest code** for a given part of your code. (Combine it with `CTRL+A` to select all code and query on that.)
+- **Add comments** in your code to give Github Copilot **more context** for your task.
+- Use the Chat Window to ask about your code using `@workspace` or ask about your IDE using `@vscode`.
+- By naming your variables and functions well, you can **guide Github Copilot** to suggest the right code.
+- Using `CTRL+I` try doing `/fix` or `/doc` to fix or document your code.
 
-### `npm start`
+## Disclaimer
+- Github Copilot is not perfect. It will make mistakes. It is up to you to decide whether the suggestion is correct or not.
+- Github Copilot is not a replacement for your own knowledge or creativity. It is a tool that can help you write code faster.
+- Copilot was used to create this README.md.
+- When using copilot think about the **legal implications** and **privacy implications** of using it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Setup by **Yannick Bruintjes** for **Windesheim HBO-ICT**
