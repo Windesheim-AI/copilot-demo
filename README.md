@@ -15,6 +15,7 @@ Here are some tasks that you can try to complete using Github Copilot:
 - [ ] Add a button that changes the color of the background by using `CTRL+I` to **suggest code**.
 - [ ] Add a page that displays a list of items, by using `CTRL+I` to **suggest code**.
 - [ ] Add a page that allows you to add items to the list, by using `CTRL+I` to **suggest code**.
+- [ ] Document a feature using `@workspace`.
 
 ## Tips
 - Try using `CTRL+I` to **suggest code** for a given part of your code. (Combine it with `CTRL+A` to select all code and query on that.)
